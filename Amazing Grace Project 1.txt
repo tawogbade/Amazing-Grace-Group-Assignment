@@ -1,0 +1,16 @@
+Group Project 1
+
+SELECT * FROM dbo.[Sales.Product];
+
+SELECT * FROM dbo.[Sales.Product]
+WHERE StandardCost > 10;
+
+SELECT ProductName, Color + ', ' + Size AS ProductDetails
+FROM dbo.[Sales.Product];
+
+SELECT ProductName, ProductNumber, Color, Size,
+ListPrice - StandardCost AS Profit
+FROM dbo.[Sales.Product];
+
+SELECT ProductName + ': ' + ProductNumber AS ProductName, Color, Size, ListPrice
+FROM dbo.[Sales.Product];

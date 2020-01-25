@@ -1,0 +1,41 @@
+Group Project 2
+
+UPDATE dbo.[Sales.Product]
+SET StandardCost = 35.00, ListPrice = 60.00
+WHERE ProductName = 'Dinner Gown';
+
+UPDATE dbo.[Sales.Product]
+SET Color = 'Green'
+WHERE ProductName = 'Shorts';
+
+UPDATE dbo.[Sales.Product]
+SET ListPrice = 13.00
+WHERE ProductName = 'Shrugs';
+
+UPDATE dbo.[Sales.Product]
+SET Size = 'S'
+WHERE ProductNumber = '01-127';
+
+UPDATE dbo.[Sales.Product]
+SET StandardCost = 45.00
+WHERE ProductName = 'Suit';
+
+UPDATE dbo.[Sales.Product]
+SET Color = 'White'
+WHERE ProductName = 'Beanie';
+
+UPDATE dbo.[Sales.Product]
+SET StandardCost = 20, ListPrice = 25
+WHERE ProductName = 'Vest';
+
+UPDATE dbo.[Sales.Product]
+SET Color = 'Black'
+WHERE ProductNumber = '01-130';
+
+UPDATE dbo.[Sales.Product]
+SET Size = 'M'
+WHERE ProductName = 'Socks';
+
+UPDATE dbo.[Sales.Product]
+SET Size = 'XL', ListPrice = 40
+WHERE ProductName = 'Joggers';
